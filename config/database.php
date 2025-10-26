@@ -2,11 +2,11 @@
 // Configuración para MySQL en Azure - USA VARIABLES DE ENTORNO
 function getDatabaseConfig() {
     // Leer variables de entorno del App Service
-    $host = getenv('DB_HOST') ?: 'mysql-server-1.mysql.database.azure.com';
+    $host = getenv('DB_HOST') ?: 'jgomez139mysql.mysql.database.azure.com';
     $port = getenv('DB_PORT') ?: '3306';
-    $dbname = getenv('DB_NAME') ?: 'mysql-server-1';
-    $username = getenv('DB_USER') ?: 'jesus123@mysql-server-1';
-    $password = getenv('DB_PASS') ?: 'contraseña123456@@';
+    $dbname = getenv('DB_NAME') ?: 'jgomez139mysql';
+    $username = getenv('DB_USER') ?: 'jgomez139';
+    $password = getenv('DB_PASS') ?: '310548JesusM';
     
     return [
         'host' => $host,
